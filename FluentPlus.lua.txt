@@ -110,7 +110,7 @@ local Themes = {
 	},
 	
 	Abc = {
-		Name = "BlackRedWhite",
+		Name = "Abc",
 		Accent = Color3.fromRGB(220, 20, 60),
 		AcrylicMain = Color3.fromRGB(15, 15, 15),
 		AcrylicBorder = Color3.fromRGB(40, 40, 40),
