@@ -585,7 +585,7 @@ local bS = {}
             cp.BackgroundTransparency = 1
             cp.ImageTransparency = 0.5
             cp.Size = UDim2.new(0, 25, 0, 25)
-            cp.Image = "rbxassetid://98870039933107"
+            cp.Image = "rbxassetid://130069815022475"
 
             bY2.Parent = cf
             bY2.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
