@@ -1,11 +1,7 @@
-local ui = game:GetService "CoreGui":FindFirstChild "VVV"
-local toggk = game:GetService"CoreGui":FindFirstChild"Toggle"
-if ui then
-    ui:Destroy()
-end
-if toggk then
-    toggk:Destroy()
-end
+pcall(function()
+    game:GetService("CoreGui").Toggle:Destroy()
+    game:GetService("CoreGui").VVV:Destroy()
+end)
 Config = {
 	Logo = "rbxassetid://130069815022475",
 	TabColor = Color3.fromRGB(15, 15, 15),
@@ -1221,3 +1217,4 @@ local bS = {}
 		return bS
 end
 return dragon
+
