@@ -69,7 +69,7 @@ local function bg(bh, a0)
 	local bk = nil
 	local bl = nil
 
-	local function bm(bn)
+	local function dragon(bn)
 		local bo = bn.Position - bk
 		local bp = UDim2.new(bl.X.Scale, bl.X.Offset + bo.X, bl.Y.Scale, bl.Y.Offset + bo.Y)
 		local bq = j:Create(a0, TweenInfo.new(0.15), { Position = bp })
@@ -89,12 +89,12 @@ local function bg(bh, a0)
 	bh.InputChanged:Connect(function(bn)
 		if bn.UserInputType == Enum.UserInputType.MouseMovement or bn.UserInputType == Enum.UserInputType.Touch then bj = bn end
 	end)
-	h.InputChanged:Connect(function(bn) if bn == bj and bi then bm(bn) end end)
+	h.InputChanged:Connect(function(bn) if bn == bj and bi then dragon(bn) end end)
 end
 
-local bm = {}
+local dragon = {}
 
-function bm:Window(text, des, bs)
+function dragon:Window(text, des, bs)
     local s = Instance.new "UICorner"
     local bt = {}
     local bu = false
@@ -180,7 +180,7 @@ function bm:Window(text, des, bs)
     bK.PaddingTop = UDim.new(0, 2)
     local bA = Instance.new "UIStroke"
     local bL = Instance.new "Frame"
-    local bM = Instance.new "TextLabel"
+    local dragon = Instance.new "TextLabel"
     local bN = Instance.new "Frame"
     bN.Name = "Page"
     bN.Parent = bz
@@ -233,23 +233,23 @@ function bm:Window(text, des, bs)
     bL.BorderSizePixel = 0
     bL.Position = UDim2.new(0.1, -150, 0.158805028, -80)
 
-    bM.Parent = bz
-    bM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    bM.BackgroundTransparency = 1
-    bM.BorderColor3 = Color3.fromRGB(0, 0, 0)
-    bM.BorderSizePixel = 0
-    bM.Position = UDim2.new(0.5, 0, 0, 0)
-    bM.AnchorPoint = Vector2.new(0.451, 0)
-    bM.Size = UDim2.new(0, 520, 0, 15)
-    bM.Font = font
-    bM.Text = text
-    bM.TextColor3 = Color3.fromRGB(255, 255, 255)
-    bM.TextSize = 15
-    bM.TextWrapped = true
-    bM.TextXAlignment = Enum.TextXAlignment.Left
-    bM.TextYAlignment = Enum.TextYAlignment.Top
+    dragon.Parent = bz
+    dragon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    dragon.BackgroundTransparency = 1
+    dragon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    dragon.BorderSizePixel = 0
+    dragon.Position = UDim2.new(0.5, 0, 0, 0)
+    dragon.AnchorPoint = Vector2.new(0.451, 0)
+    dragon.Size = UDim2.new(0, 520, 0, 15)
+    dragon.Font = font
+    dragon.Text = text
+    dragon.TextColor3 = Color3.fromRGB(255, 255, 255)
+    dragon.TextSize = 15
+    dragon.TextWrapped = true
+    dragon.TextXAlignment = Enum.TextXAlignment.Left
+    dragon.TextYAlignment = Enum.TextYAlignment.Top
     local uu = Instance.new("UIGradient")
-    uu.Parent = bM
+    uu.Parent = dragon
     uu.Color = ColorSequence.new({
         ColorSequenceKeypoint.new(0, Color3.fromRGB(2, 182, 255)), -- 0% - White
         ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 47, 128)) -- 100% - Black
@@ -1220,3 +1220,4 @@ local bS = {}
         end
 		return bS
 end
+return dragon
