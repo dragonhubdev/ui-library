@@ -7,7 +7,7 @@ if toggk then
     toggk:Destroy()
 end
 Config = {
-	Logo = "rbxassetid://103544969566862",
+	Logo = "rbxassetid://130069815022475",
 	TabColor = Color3.fromRGB(15, 15, 15),
     StrokeColor = Color3.fromRGB(23, 23, 23),
     Other = Color3.fromRGB(2, 182, 255),
