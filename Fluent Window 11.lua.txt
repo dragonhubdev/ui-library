@@ -318,7 +318,7 @@ function obj:Window(cfw)
 	cfw.UseAcrylic = cfw.UseAcrylic or false
 	cfw.Size = cfw.Size or UDim2.new(0, 600,0, 420)
 	cfw.DiscordStatus = cfw.DiscordStatus or "Time to make script"
-	cfw.DisplayNameDiscord = cfw.DisplayNameDiscord or "@_nguyenhoanggianam"
+	cfw.DisplayNameDiscord = cfw.DisplayNameDiscord or "@_ng.shinichi"
 	cfw.DiscordDescription = cfw.DiscordDescription or ""
 	cfw.KeyCode = cfw.KeyCode or Enum.KeyCode.RightControl
 	local Window = Instance.new("ScreenGui")
@@ -668,7 +668,7 @@ function obj:Window(cfw)
 	NamePlayer.Position = UDim2.new(0, 52, 0, 14)
 	NamePlayer.Size = UDim2.new(1, -60, 0, 12)
 	NamePlayer.FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-	NamePlayer.Text = "Nam"
+	NamePlayer.Text = "_ng.shinichi"
 	NamePlayer.TextColor3 = Color3.fromRGB(230, 230, 230)
 	NamePlayer.TextSize = 13.000
 	NamePlayer.TextWrapped = true
@@ -978,7 +978,7 @@ function obj:Window(cfw)
 	NamePlayer_2.Size = UDim2.new(1, -30, 0, 16)
 	NamePlayer_2.ZIndex = 3
 	NamePlayer_2.Font = Enum.Font.GothamBold
-	NamePlayer_2.Text = "Nam"
+	NamePlayer_2.Text = "_ng.shinichi"
 	NamePlayer_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 	NamePlayer_2.TextSize = 18.000
 	NamePlayer_2.TextXAlignment = Enum.TextXAlignment.Left
@@ -1098,7 +1098,7 @@ function obj:Window(cfw)
 	DiscordAboutMe.Position = UDim2.new(0, 15, 0, 45)
 	DiscordAboutMe.Size = UDim2.new(1, -30, 0, 70)
 	DiscordAboutMe.Font = Enum.Font.GothamMedium
-	DiscordAboutMe.Text = "Sleep for healthy\n<font color='rgb(0, 128, 255)'>https://guns.lol/ojsan</font>"
+	DiscordAboutMe.Text = "Sleep for healthy\n<font color='rgb(0, 128, 255)'>https://discord.gg/XHwADtqwT8</font>"
 	DiscordAboutMe.TextColor3 = Color3.fromRGB(255, 255, 255)
 	DiscordAboutMe.TextSize = 11.000
 	DiscordAboutMe.TextWrapped = true
@@ -1154,7 +1154,7 @@ function obj:Window(cfw)
 	LogoInfo.Position = UDim2.new(0.5, 0, 0.5, 0)
 	LogoInfo.Size = UDim2.new(1, 0, 1, 0)
 	LogoInfo.ZIndex = 3
-	LogoInfo.Image = "rbxassetid://132971800188599"
+	LogoInfo.Image = "rbxassetid://73953830680888"
 	UICorner_51.CornerRadius = UDim.new(0, 100)
 	UICorner_51.Parent = LogoInfo
 	StatusFrame.Name = "StatusFrame"
