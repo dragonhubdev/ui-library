@@ -978,7 +978,7 @@ function obj:Window(cfw)
 	NamePlayer_2.Size = UDim2.new(1, -30, 0, 16)
 	NamePlayer_2.ZIndex = 3
 	NamePlayer_2.Font = Enum.Font.GothamBold
-	NamePlayer_2.Text = "_ng.shinichi/nhatanhcute"
+	NamePlayer_2.Text = "_ng.shinichi"
 	NamePlayer_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 	NamePlayer_2.TextSize = 18.000
 	NamePlayer_2.TextXAlignment = Enum.TextXAlignment.Left
