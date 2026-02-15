@@ -1,4 +1,3 @@
--- Source code: Rua Hub (Tông màu Xanh Lá)
 if getgenv().Nousigi then 
     if game.CoreGui:FindFirstChild("Rua Hub GUI") then
         for i, v in ipairs(game.CoreGui:GetChildren()) do
@@ -9,9 +8,7 @@ if getgenv().Nousigi then
     end
 end
 getgenv().Nousigi = true
-
 local DisableAnimation = game.Players.LocalPlayer.PlayerGui:FindFirstChild('TouchGui')
-
 local T1UIColor = {
     ["Border Color"] = Color3.fromRGB(40, 60, 40),
     ["Click Effect Color"] = Color3.fromRGB(0, 255, 127), 
@@ -22,34 +19,27 @@ local T1UIColor = {
     ["GUI Text Color"] = Color3.fromRGB(240, 240, 240),
     ["Text Color"] = Color3.fromRGB(240, 240, 240),
     ["Placeholder Text Color"] = Color3.fromRGB(100, 100, 100),
-    ["Title Text Color"] = Color3.fromRGB(0, 255, 127), -- Màu tên "Rua Hub"
-    
+    ["Title Text Color"] = Color3.fromRGB(0, 255, 127),
     ["Background Main Color"] = Color3.fromRGB(10, 20, 10), 
     ["Background 1 Color"] = Color3.fromRGB(15, 25, 15),
     ["Background 1 Transparency"] = 0.05,
     ["Background 2 Color"] = Color3.fromRGB(20, 30, 20),
     ["Background 3 Color"] = Color3.fromRGB(18, 28, 18),
     ["Background Image"] = "",
-    
     ["Page Selected Color"] = Color3.fromRGB(0, 255, 127),
     ["Section Text Color"] = Color3.fromRGB(255, 255, 255),
     ["Section Underline Color"] = Color3.fromRGB(0, 255, 127),
-    
-    -- TOGGLE & BUTTONS
     ["Toggle Border Color"] = Color3.fromRGB(0, 255, 127),
-    ["Toggle Checked Color"] = Color3.fromRGB(0, 255, 127), -- Khi bật Toggle sẽ có màu Xanh Lá
+    ["Toggle Checked Color"] = Color3.fromRGB(0, 255, 127),
     ["Toggle Desc Color"] = Color3.fromRGB(180, 200, 180),
-    ["Button Color"] = Color3.fromRGB(0, 255, 127), -- Nút bấm màu Xanh Lá (thay cho màu trắng/đỏ)
-    
+    ["Button Color"] = Color3.fromRGB(0, 255, 127),
     ["Dropdown Icon Color"] = Color3.fromRGB(0, 255, 127),
     ["Dropdown Selected Color"] = Color3.fromRGB(0, 255, 127),
     ["Dropdown Selected Check Color"] = Color3.fromRGB(255, 255, 255),
-    
     ["Textbox Highlight Color"] = Color3.fromRGB(0, 255, 127),
     ["Box Highlight Color"] = Color3.fromRGB(0, 255, 127),
     ["Slider Line Color"] = Color3.fromRGB(35, 55, 35),
     ["Slider Highlight Color"] = Color3.fromRGB(0, 255, 127),
-    
     ["Tween Animation 1 Speed"] = DisableAnimation and 0 or 0.25,
     ["Tween Animation 2 Speed"] = DisableAnimation and 0 or 0.5,
     ["Tween Animation 3 Speed"] = DisableAnimation and 0 or 0.1,
@@ -57,10 +47,6 @@ local T1UIColor = {
 }
 
 getgenv().UIColor = T1UIColor
-
--- Lưu ý quan trọng: 
--- Trong phần code tạo Toggle (thường ở đoạn dưới file), hãy đảm bảo giá trị 
--- Checkbox.BackgroundColor3 sử dụng getgenv().UIColor["Toggle Checked Color"]
 getgenv().AllControls = {}
 getgenv().UIToggled = false
 
