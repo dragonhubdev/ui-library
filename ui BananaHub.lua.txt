@@ -36,10 +36,10 @@ local T1UIColor = {
     ["Section Underline Color"] = Color3.fromRGB(0, 255, 127),
     
     -- TOGGLE & BUTTONS
-    ["Toggle Border Color"] = Color3.fromRGB(40, 70, 40),
+    ["Toggle Border Color"] = Color3.fromRGB(0, 255, 127),
     ["Toggle Checked Color"] = Color3.fromRGB(0, 255, 127), -- Khi bật Toggle sẽ có màu Xanh Lá
     ["Toggle Desc Color"] = Color3.fromRGB(180, 200, 180),
-    ["Button Color"] = Color3.fromRGB(0, 150, 75), -- Nút bấm màu Xanh Lá (thay cho màu trắng/đỏ)
+    ["Button Color"] = Color3.fromRGB(0, 255, 127), -- Nút bấm màu Xanh Lá (thay cho màu trắng/đỏ)
     
     ["Dropdown Icon Color"] = Color3.fromRGB(0, 255, 127),
     ["Dropdown Selected Color"] = Color3.fromRGB(0, 255, 127),
